@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8086F3BE15CA8E4100A6FBF9 /* Script.sh in Resources */ = {isa = PBXBuildFile; fileRef = 8086F3BD15CA8E4100A6FBF9 /* Script.sh */; };
 		809658A715CA77D7008C771B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809658A615CA77D7008C771B /* UIKit.framework */; };
 		809658A915CA77D7008C771B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809658A815CA77D7008C771B /* Foundation.framework */; };
 		809658AB15CA77D7008C771B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809658AA15CA77D7008C771B /* CoreGraphics.framework */; };
@@ -22,21 +23,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8086F3BD15CA8E4100A6FBF9 /* Script.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = Script.sh; sourceTree = "<group>"; };
 		809658A215CA77D7008C771B /* TestGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		809658A615CA77D7008C771B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		809658A815CA77D7008C771B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		809658AA15CA77D7008C771B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		809658AC15CA77D7008C771B /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		809658AE15CA77D7008C771B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		809658B215CA77D7008C771B /* TestGit-Info.plist */ = {isa = PBXFileReference; path = "TestGit-Info.plist"; sourceTree = "<group>"; };
+		809658B215CA77D7008C771B /* TestGit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestGit-Info.plist"; sourceTree = "<group>"; };
 		809658B415CA77D7008C771B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		809658B615CA77D7008C771B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		809658B815CA77D7008C771B /* TestGit-Prefix.pch */ = {isa = PBXFileReference; path = "TestGit-Prefix.pch"; sourceTree = "<group>"; };
-		809658B915CA77D7008C771B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		809658B815CA77D7008C771B /* TestGit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestGit-Prefix.pch"; sourceTree = "<group>"; };
+		809658B915CA77D7008C771B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		809658BA15CA77D7008C771B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		809658BC15CA77D7008C771B /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
 		809658BE15CA77D7008C771B /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
-		809658C015CA77D7008C771B /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		809658C015CA77D7008C771B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		809658C115CA77D7008C771B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		809658C415CA77D7008C771B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,6 +99,7 @@
 				809658C115CA77D7008C771B /* ViewController.m */,
 				809658C315CA77D7008C771B /* ViewController.xib */,
 				809658B115CA77D7008C771B /* Supporting Files */,
+				8086F3BD15CA8E4100A6FBF9 /* Script.sh */,
 			);
 			path = TestGit;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				809658BD15CA77D7008C771B /* Shader.fsh in Resources */,
 				809658BF15CA77D7008C771B /* Shader.vsh in Resources */,
 				809658C515CA77D7008C771B /* ViewController.xib in Resources */,
+				8086F3BE15CA8E4100A6FBF9 /* Script.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +294,7 @@
 				809658CA15CA77D7008C771B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
